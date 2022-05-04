@@ -1,0 +1,252 @@
+/* IMPORTI LIBRERIE PER FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BARRA DI NAVIGAZIONE */
+nav{
+    background-color: #1d2a35;
+    padding: 12px;
+}
+
+form{
+    margin-top: -25px;
+}
+
+ul{
+    margin-top: -35;
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+
+li{
+    float: right;
+    margin-right: 20px; 
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+li a {
+    padding: 12px;
+}
+
+li a:hover{
+    border-radius: 3px;
+    background-color: #2d4152;
+}
+
+li a#serv_id, #acc_id{
+    padding-right: 23px;
+}
+
+li a#serv_id, #acc_id{
+    padding-right: -3px;
+}
+
+nav ul ul{
+    background-color: #2d4152;
+    display: none;
+}
+
+/* SUBLIST DI SERVIZI E ACCEDI */
+nav ul li:hover > ul{
+    position: absolute;
+    background-color: #364e63;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 11px;
+    display: block;
+}
+
+nav ul ul li{
+    float: none;
+    display: list-item;
+    position:relative;
+    margin: 10px;
+    padding: 5;
+}
+
+/* BOTTONE "CONTATTI" */
+#contact{
+    margin-left: 40px;
+    background-color: #04aa6d;
+    border-radius: 10px;
+}
+
+#contact:active{
+    background-color: floralwhite;
+    color: #1d2a35;
+}
+
+/* INPUT DI RICERCA */
+input[type=search]{ 
+    margin-left: 20%;
+    padding: 6px;
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+/* BOTTONE INVIA*/
+input[type=submit]{ 
+    font-family: 'Poppins', sans-serif;
+    background-color: #04aa6d;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px 15px;
+    margin: 0px;
+    height: 35px;
+}
+
+/* SCRITTA VICINO IL LOGO DELLA NAV*/
+p{
+    margin-right: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-left: 72px;
+    margin-top: -40px;
+}
+
+/* SOTTO LA BARRA DI NAVIGAZIONE */
+div.text{
+    margin-top: -18px;
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Immagini/sfondo.jpg);
+}
+
+div h2{
+    font-family: 'Titillium Web', sans-serif;
+    padding: 60px;
+    height: 40%;
+    color: #dddddd;
+    font-size: 30px;
+}
+
+div h2{
+    position: absolute;
+    margin-top: -150px;;
+    margin-left: -80px;
+    background-color: #1d2a35;
+    border-radius: 30px;
+    border: 1px solid #dddddd;
+}
+
+div p#cit{
+    font-style: italic;
+    position: absolute;
+    margin-top: 110px;
+    color: #dddddd;
+    text-align: left;
+    margin-left: 19%;
+}
+
+/* FRECCETTE SUB LIST */
+i#freccia{
+    margin-left: -19px;
+    color: white;
+    transition: 0.2s; /* Freccia di ritorno */ 
+    
+}
+
+nav ul li:hover > i#freccia{
+    transform: rotateZ(-180deg); /* freccia di partenza*/
+    transition: 0.2s;
+}
+
+/* COPERTINA DELLE IMMAGINI */
+
+#copper{
+    margin-top: 5px;
+    margin-left: 80px;
+    width: 160px;
+    box-shadow: 0px 15px 10px -10px rgba(0,0,0,0.6);
+    transition: all .7s;
+}
+
+#copper:hover{
+    box-shadow: 0px 45px 20px -30px rgba( 0,0,0,0.2);
+    transform: translateY(-20px);
+}
+
+.libri{
+    margin-top: -1px;
+    background-color: #9cb4c9;
+}
+
+/* BOTTONI DI PRENOTAZIONE */
+
+input[type=button]{
+    font-family: 'Poppins', sans-serif;
+    background-color: #3f5b73;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-top: 32px;
+    margin-right: 23px;
+    margin-left: 119.8px;
+    transition: all 0.7s;
+}
+
+input[type=button]:hover{
+    border-color: black;
+    background-color: #04aa6d;
+}
+
+input[type=button].destra{
+    margin-left: 129px;
+}
+
+input[type=button].p_ultimo{
+     margin-left: 127px;   
+}
+
+input[type=button].btn{
+    margin-left: 130px;
+}
+
+/* INFORMAZIONI A FINE PAGINA */
+
+hr{
+    border-style: groove;
+    background-color: #353535;
+    border-top-color: rgba( 0,0,0,0.2);
+    margin-bottom: 10px;
+}
+
+.firma{
+    font-size: 15px;
+    text-align: center;
+    color: #575757;
+}
+
+address{
+    text-align: center;
+    color: #575757;
+    margin-left: 6%;
+}
+
+.licenza{
+    font-size: 10px;
+    text-align: center;
+    color: #575757;
+    margin-top: 3px;
+}
