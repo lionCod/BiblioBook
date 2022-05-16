@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #486784;
+}
+
+nav{
+    background-color: #1d2a35;
+    padding: 12px;
+}
+
+form{
+    margin-top: -25px;
+}
+
+ul{
+    margin-top: -35;
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+
+li{
+    float: right;
+    margin-right: 20px; 
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+li a {
+    padding: 12px;
+}
+
+li a:hover{
+    border-radius: 3px;
+    background-color: #2d4152;
+}
+
+li a#serv_id, #acc_id{
+    padding-right: 23px;
+}
+
+li a#serv_id, #acc_id{
+    padding-right: -3px;
+}
+
+nav ul ul{
+    background-color: #2d4152;
+    display: none;
+}
+
+nav ul li:hover > ul{
+    position: absolute;
+    background-color: #364e63;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 11px;
+    display: block;
+}
+
+nav ul ul li{
+    float: none;
+    display: list-item;
+    position:relative;
+    margin: 10px;
+    padding: 5;
+}
+
+#contact{
+    margin-left: 40px;
+    background-color: #04aa6d;
+    border-radius: 10px;
+}
+
+#contact:active{
+    background-color: floralwhite;
+    color: #1d2a35;
+}
+
+input[type=search]{ 
+    margin-left: 20%;
+    padding: 6px;
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+input[type=submit]{ 
+    font-family: 'Poppins', sans-serif;
+    background-color: #04aa6d;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px 15px;
+    margin: 0px;
+    height: 35px;
+}
+
+p.p_logo{
+    margin-right: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-left: 72px;
+    margin-top: -40px;
+    font-size: 19px;
+}
+
+i#freccia{
+    margin-left: -19px;
+    color: white;
+    transition: 0.2s; 
+    
+}
+
+nav ul li:hover > i#freccia{
+    transform: rotateZ(-180deg);
+    transition: 0.2s;
+}
+
+
+.header{
+   background-color: lightgrey;
+padding: 2px;
+   text-align: center;
+font-size: 50px;  
+   text-decoration: overline underline white double 4px;
+}
+h1{
+	font-family:palatino linotype;
+	  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px black;
+}
+
+b{
+	font-size: 30px;
+text-decoration: underline;
+font-family: microsoft sans serif;
+color: white;
+  text-shadow: 1px 1px 2px black, 0 0 20px lightblue, 0 0 5px blue;	
+}
+p {
+  font-family: hotdog;
+  font-size: 25px;
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+.nomi{
+    font-family: verdana;
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px darkgrey;
+}
+
+table{
+    height:30%;
+    width:60%;
+    border: 0px solid;
+    border-radius: 10px;
+    text-align:center;
+    background: #444;
+    box-shadow:9px 9px 18px #fff,
+    -9px -9px 18px #fff;
+}
+th{
+    padding-right: 4.5px;
+    padding-left: 4.5px;
+    font-size: 16px;
+	color: #fdfdfd;
+	text-align:center;
+	border:1px solid grey;
+}
+th:hover{
+	background:lightgrey;
+	color:black;
+    box-shadow:9px 9px 18px #1f1f1f,
+  -9px -9px 18px #474747;
+}
+td{
+	border:1px solid grey;
+	color: #f1f1f1;
+	text-align:center;
+}
+td:hover{
+	background:lightgrey;
+	color:black;
+    box-shadow:9px 9px 18px #1f1f1f,
+  -9px -9px 18px #474747;
+}
+
+.alto_s{
+    border-top-left-radius: 10px;
+}
+
+.alto_d{
+    border-top-right-radius: 10px;
+}
+
+.basso_s{
+    border-bottom-left-radius: 10px;
+}
+
+.basso_d{
+    border-bottom-right-radius: 10px;
+}
+
+.center{
+	margin-left:auto;
+	margin-right:auto;
+}
+.column {
+    position:left;
+	margin-top: -10px;
+}
+.column.right {
+position :right;
+margin-top: 10px;
+}
+
+.column.middle {
+    margin-top: 50px;
+	float:center;
+	width:65%;
+}
