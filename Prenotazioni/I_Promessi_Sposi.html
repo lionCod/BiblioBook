@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>BiblioBook - I Promessi Sposi</title>
+        <link rel="icon" href="favicon.png">
+        <link rel="stylesheet" href="stile_pren.css">
+        <script src="https://kit.fontawesome.com/c6a35a2638.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="favicon.png" width=70>
+                <p>iblioBook</p>
+                <form>
+                    <label for="search" class="struct"></label>
+                    <input type="search" id="search" placeholder="Cerca sul sito..">
+                    <input type="submit" value="Cerca">
+                </form>
+            </div>
+            
+            <ul>
+                <li>
+                    <a href="#" id="contact">Contatti</a>
+                </li>
+                
+                <li>
+                    <a href="#">Registrati</a>
+                </li>
+                
+                <li>
+                    <a id="acc_id" href="#">Accedi</a>
+                    <i id="freccia" class="fa-solid fa-chevron-down"></i>
+                    <ul>
+                        <li><a href="#">Come Admin</a></li>
+                        <li><a href="#">Come Utente</a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a id="serv_id" href="#">Servizi</a>
+                    <i id="freccia" class="fa-solid fa-chevron-down"></i>
+                    <ul id="dropdown">
+                        <li><a href="#">Prendi in prestito</a></li>
+                        <li><a href="#">Restituisci</a></li>
+                        <li><a href="#">Restituisci con prestito</a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="../bioUda/Bio.html">Bio</a>
+                </li>
+                
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+        
+        <div id="container">
+            <p class="titolo" style="margin-left: 1px; margin-right: 48px;">
+                I Promessi Sposi "Alessandro Manzoni"
+            </p>
+        
+            <img class ="libro" src="Immagini/promessi_sposi.jpg" alt="I Promessi Sposi" title="I Promessi Sposi" height="274px">
+            
+            
+            <ul class="descr">
+               <li class="descr">
+                   <a href="#" class="descrizione">
+                       Descrizione
+                   </a>
+                   <i id="freccia_descr" class="fa-solid fa-chevron-down"></i>
+               </li>
+           </ul> 
+           
+            
+          
+          <div class="mostra">
+           
+            <button onclick="myFunction()" class="prenota">Prenota</button>
+              
+            <div id="quantity" class="quantity-content">
+       
+            <input type="number" class="quantita" min="1" max="10" placeholder="1">
+            
+            <label for="html" 
+               style="margin-left: 37%;
+                      margin-top: -12px;">
+                Quantità
+            </label>
+            
+            </div>
+              
+          </div>
+          
+           
+        </div>
+        <br><br>
+        <br><br>
+        <p class="firma">Servizio bibliotecario - Istituto Tecnico Antonio Pacinotti</p>
+        <address>Sede: Via Croce, 1, 84018 Scafati SA</address>
+        <p class="licenza">© Copyright 2022</p>
+        
+        <script>
+            
+            function myFunction() {
+            document.getElementById("quantity").classList.toggle("show");
+            }
+        </script>
+        
+    </body>
+</html>
