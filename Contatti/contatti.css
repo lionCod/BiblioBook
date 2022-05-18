@@ -1,10 +1,14 @@
-.index{
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #bg-image {
 
-    width: 1876px;
+    width: 100%;
     height: 130px;
     background: url(icon.jpeg);
     border-left: 10px solid cadetblue;
@@ -14,22 +18,26 @@
 
 .BiblioBook
 {   
-   
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgb(58, 158, 189);
+    font-family: 'Lobster Two', cursive;
+    background-color: #2d4152;
     text-align:end;
     padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 30px;
-    font-size: 15px;
-    width: 1888px;
-    height: 30px;
-    border-bottom: 10px solid rebeccapurple;
+    padding-bottom: 75px;
+    font-size: 20px;
+    width: 100%;
+    height: 1px;
 }
 
-
-.container {
-  }
+a.titolo{
+    margin-right: 70%;
+    margin-top: 0%;
+    color: #ddd; 
+    float: left;
+    font-size: 52px;
+    text-rendering: optimizeSpeed;
+    text-decoration: none;
+}
 
 #picture_Style{
     display: block;
@@ -37,8 +45,8 @@
     margin-bottom: auto;
     height: 30px;
     border: 10px solid rgb(55, 18, 92);
-    height: 400px;
-    width: 1878px;
+    height: 650px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -58,31 +66,33 @@
     font-size: 35px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-
+    border-radius: 10px;
 }
+
 #description
 {
     text-align: center;
     font-size: 21px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
 }
 
 .text-block {
     display: inline-block;
     width: 650px;
-    height: 300px;
-    margin-top: 35px;
-    margin-left: 30%;
+    height: 580px;
+    margin-top: 25px;
+    margin-left: 28%;
     background-color: rgba(255, 79, 123, 0.87);
     color: white;
     padding-left: 50px;
     padding-right: 50px;
     border: 10px solid rgb(211, 158, 140);
+    border-radius: 10px;
     
   }
 
 .Telefono {
-    width: 1821px;
+    width: 100%;
     height: 1600px;
     padding-left: 4%;
     padding-top: 4%;
@@ -94,17 +104,32 @@
 .tab1{
     padding-top: 5%;
     padding-left: 10%;
-    height: 700px;
-    width: 1640px;
+    height: 450px;
+    width: 95%;
     background-image: url(mountain.jpg);
+    border-radius: 10px;
 }
 
 #button_{
+    background: none;
+    border: 2px solid #e4cb58;
+    color: #e4cb58;
+    font: inherit;
     display: inline-block;
     margin-top: 5%;
     width:400px;
     height:50px;
-    border: 10px solid rebeccapurple;
+}
+
+#button_:hover {
+  box-shadow: 0px 15px 10px -10px #e5ff60;
+  transform: translateY(-0.25em);
+    color: #fff;
+    border-color: #e5ff60;
+}
+
+input[type=submit]{  
+  transition: 0.25s;
 }
 
 #phone_title{
@@ -119,48 +144,55 @@
     height: 300px;
     padding-left: 5%;
     padding-right 10%;
-    margin-top: 12%;
+    margin-top: 2%;
     padding-bottom: 5%;
     margin-right: 50%;
     background-image: url(books.jpg);
     background-position: center bottom; 
     border: 10px solid black;
+    border-radius: 15px;
 }
 
 #text_{
     float:right;
-    margin-right: 5%;
-    margin-top: 4%;
+    margin-right: 13%;
+    margin-top: 7%;
     font-size: 26px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     color: aliceblue;
-    width: 900px;
-    height: 380px;
-    background-image: url(lecture.jpg);
+    width: 600px;
+    height: 280px;
+    background-color: #2d4152;
     border: 10px solid black;
-
+    border-radius: 15px;
 }
 
 .mappa {
+    margin-left: -26px;
     height: 700px;
-    width: 1600px;
+    width: 100%;
     margin-top: 3%;
-    border: 10px solid black;
+    border: 5px solid black;
+    border-radius: 10px;
     background-image: url(lighthouse.jpg);
 }
 
 #title_loc
 {
+    margin-left: 20px;
+    text-align: justify;
     font-size: 32px;
     color: rgba(255, 13, 13, 0.829);
     text-align: left;
-    margin-left: 30%;
     font-style: bold;
 }
 
 #address
 {
+    margin-left: 12.3%;
+    text-align: justify;
+    float: left;
     font-size: 26px;
     font-style: italic;
     color: rgba(53, 44, 44, 0.808);
@@ -168,16 +200,13 @@
 }
 
 .email{
+    margin-top: -20%;
     background-image: url(village.png);
     padding: 39px;
-    width: 1820px;
+    width: 100%;
     height: 500px;
 }
-.contact-img{
-    margin-top: 40px;
-    margin-left: 6%;
 
-}
 #Mail_title{
     text-align: center;
     padding-right: 10%;
@@ -187,18 +216,9 @@
 }
 #tab{
  float: right;
- margin-right: 6%;
  margin-top: 20px;
  border: 10px solid rgba(255, 94, 0, 0.836);
  padding: 40px;
  background-color: rgba(196, 189, 255, 0.884);
 }
-
-
-
-
-
-
-
-
 
