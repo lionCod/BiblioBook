@@ -1,0 +1,256 @@
+/* IMPORTI LIBRERIE PER FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BARRA DI NAVIGAZIONE */
+nav{
+    background-color: #1d2a35;
+    padding: 12px;
+    margin-bottom: 5%;
+}
+
+form{
+    margin-top: -25px;
+}
+
+ul{
+    margin-top: -40px;
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+
+li{
+    float: right;
+    margin-right: 20px; 
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+li a {
+    padding: 10.5px;
+}
+
+li a:hover{
+    border-radius: 3px;
+    background-color: #2d4152;
+}
+
+li a#serv_id, #acc_id{
+    padding-right: 23px;
+}
+
+li a#serv_id, #acc_id{
+    padding-right: -3px;
+}
+
+nav ul ul{
+    background-color: #2d4152;
+    display: none;
+}
+
+/* SUBLIST DI SERVIZI E ACCEDI */
+nav ul li:hover > ul{
+    position: absolute;
+    background-color: #364e63;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 11px;
+    display: block;
+}
+
+nav ul ul li{
+    float: none;
+    display: list-item;
+    position:relative;
+    margin: 10px;
+    padding: 5;
+}
+
+/* BOTTONE "CONTATTI" */
+#contact{
+    margin-left: 10px;
+    background-color: #04aa6d;
+    border-radius: 10px;
+}
+
+#contact:active{
+    background-color: floralwhite;
+    color: #1d2a35;
+}
+
+/* INPUT DI RICERCA */
+input[type=search]{ 
+    margin-left: 20%;
+    padding: 4px;
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+/* BOTTONE INVIA*/
+input[type=submit]{ 
+    font-family: 'Poppins', sans-serif;
+    background-color: #04aa6d;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px 15px;
+    margin: 0px;
+    height: 35px;
+}
+
+/* SCRITTA VICINO IL LOGO DELLA NAV*/
+p.logo{
+    text-align: left;
+    margin-right: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-left: 72px;
+    margin-top: -45px;
+}
+
+/* FRECCETTE SUB LIST */
+i#freccia{
+    margin-left: -19px;
+    color: white;
+    transition: 0.2s; /* Freccia di ritorno */ 
+    
+}
+
+nav ul li:hover > i#freccia{
+    transform: rotateZ(-180deg); /* freccia di partenza*/
+    transition: 0.2s;
+}
+
+/* -------------------------------------------------------------- */
+
+h1 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    align-content: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.tipoAccount {
+    margin: auto;
+    width: 80%;
+    border-spacing: 50px;
+}
+
+.tipoAccount .cellaAccount {
+    text-align: center;
+}
+
+.accountAdmin:link,
+.accountAdmin:visited {
+    border-radius: 25px;
+    background-color: #f44336;
+    color: white;
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.accountAdmin:active {
+    background-color: red;
+}
+
+.accountUtente:link,
+.accountUtente:visited {
+    border-radius: 25px;
+    background-color: #80a8f0;
+    color: #ffffff;
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.accountUtente:active {
+    background-color: cornflowerblue;
+}
+
+.iconaUtente {
+    font-size: 64pt;
+    font-weight: bold;
+}
+
+.iscrizioneAdmin{
+    margin: auto;
+    width: 40%;
+    border-spacing: 50px;
+    text-align: center;
+    background-color: firebrick;
+    border-radius: 30px;
+}
+
+.cellaAdmin{
+    color: white;
+}
+
+label{
+    font-size: 20px;
+}
+
+button{
+    border-width: 0px;
+    border-color: firebrick;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 25px;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    border-radius: 25px;
+}
+
+.iscrizioneUtente{
+    margin: auto;
+    width: 40%;
+    border-spacing: 50px;
+    text-align: center;
+    background-color: cornflowerblue;
+    border-radius: 30px;
+}

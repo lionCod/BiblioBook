@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iscrizione</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c6a35a2638.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<nav>
+            <div class="logo">
+                <img src="../favicon.png" width=70>
+                <p class="logo">iblioBook</p>
+                <form> 
+                    <label for="search" class="struct"></label>
+                    <input type="search" id="search" placeholder="Cerca sul sito..">
+                    <input type="submit" value="Cerca">
+                </form>
+            </div>
+            
+            <ul>
+                <li>
+                    <a href="../Contatti/contatti.html" id="contact">Contatti</a>
+                </li>
+                
+                <li class="list">
+                    <a id="acc_id" href="#">Accedi</a>
+                    <i id="freccia" class="fa-solid fa-chevron-down"></i>
+                    <ul>
+                        <li><a href="AccessoAdmin.html">Come Admin</a></li>
+                        <li><a href="AccessoUtente.html">Come Utente</a></li>
+                    </ul>
+                </li>
+                
+                <li class="list">
+                    <a id="serv_id" href="#">Servizi</a>
+                    <i id="freccia" class="fa-solid fa-chevron-down"></i>
+                    <ul id="dropdown">
+                        <li><a href="#">Prendi in prestito</a></li>
+                        <li><a href="#">Restituisci</a></li>
+                        <li><a href="#">Restituisci con prestito</a></li>
+                    </ul>
+                </li>
+                
+                <li class="list">
+                    <a href="../bioUda/Bio.html">Bio</a>
+                </li>
+                
+                <li class="list">
+                    <a href="../index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+<div class="container">
+    <h1>Selezionare tipologia account</h1>
+    <table class="tipoAccount">
+        <tr class="rigaAccount">
+            <td class="cellaAccount">
+                <a href="IscrizioneAdmin.html" class="accountAdmin">
+                    <ion-icon name="person" class="iconaUtente"></ion-icon><br>
+                    <font size=50px>Account Admin</font>
+                </a>
+            </td>
+            <td class="cellaAccount">
+                <a href="IscrizioneUtente.html" class="accountUtente">
+                    <ion-icon name="people" class="iconaUtente"></ion-icon><br>
+                    <font size=50px> Account Utente</font>
+                </a>
+
+            </td>
+        </tr>
+    </table>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

@@ -224,14 +224,14 @@ li:active > #freccia_descr{
 /* BOTTONE DI QUANTITA' DEL PRODOTTO */
 
 input[type=number]{
+    float: left;
     padding: 6px;
     border: 2px solid #1d2a35;
     border-radius: 5px;
     font-size: 16px;
     background-color: white;
-    float: right;
     margin-top: -15%;
-    margin-right: 50.5%;
+    margin-left: 45%;
 }
 
 /* BOTTONE PRENOTA */
